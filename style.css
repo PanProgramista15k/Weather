@@ -4,7 +4,11 @@
 	padding: 0;
 }
 body {
-	background-color: #b7cefc;
+	background-color: #f1f3f8;
+	margin-left: 70px;
+	margin-right: 70px;
+	border-left: #b7cefc solid 100px;
+	border-right: #b7cefc solid 100px;
 }
 header {
 	display: flex;
@@ -12,26 +16,50 @@ header {
 }
 h1 {
 	width: fit-content;
-	background-color: rgb(106, 0, 255);
-	font-size: 5em;
-	color: antiquewhite;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: rgb(134, 217, 255);
+	font-size: 4em;
+	color: rgb(67, 54, 38);
 	text-align: center;
 	margin: 40px;
 	padding: 10px;
-	border: 10px solid #6c93e6;
-	border-radius: 20px;
+	border: 5px solid #6c93e6;
+	border-radius: 50px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.change {
-	border: red solid 3px;
+.star {
+	width: 100px;
+	height: 100px;
+	margin: 0px 20px;
+}
+#click {
+	display: flex;
+	justify-content: center;
+}
+button {
+	width: 100px;
+	height: 100px;
+	font-size: 20px;
+	color: aliceblue;
+	background-color: #00008b;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+}
+button:hover {
+	background-color: #4848cf;
+}
+button:active {
+	background-color: #0d8ae9;
 }
 .content_box {
 	display: flex;
 	justify-content: center;
-	border: solid black 2px;
 }
+
 .temperture {
-	border: solid black 1px;
+	background-color: antiquewhite;
+	border: grey 5px solid;
+	border-radius: 40px;
 	max-width: fit-content;
 	margin: 50px;
 	display: grid;
@@ -40,7 +68,6 @@ h1 {
 }
 .degree {
 	background-color: aqua;
-	border: grey 5px solid;
 	border-radius: 20px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	display: flex;
@@ -50,7 +77,7 @@ h1 {
 	font-size: 80px;
 }
 .msg {
-	border: grey 5px solid;
+	background-color: rgba(87, 194, 130, 0.664);
 	border-radius: 20px;
 	grid-column: -3 / -1;
 	margin: 20px;
@@ -59,4 +86,5 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }

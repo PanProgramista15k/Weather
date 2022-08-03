@@ -26,11 +26,11 @@ if (celsius > 30) {
 	msg = "Invalid temperature";
 }
 
-const a = document.querySelector(".msg");
-a.innerText = msg;
-
 const cel = document.querySelector("#celsius");
 cel.innerText = celsius;
 
 const fah = document.querySelector("#fahrenheit");
 fah.innerText = fahrenheit;
+
+const a = document.querySelector(".msg");
+a.innerText = msg;
