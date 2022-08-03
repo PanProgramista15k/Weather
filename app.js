@@ -2,8 +2,6 @@ const min = -20;
 const max = 55;
 const celsius = Math.floor(Math.random() * max) + min;
 const fahrenheit = Math.floor(celsius * (9 / 5) + 32);
-console.log(celsius);
-console.log(fahrenheit);
 
 if (celsius > 30) {
 	msg = "Be careful! High temperature might be dangerous for your health";
